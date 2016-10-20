@@ -1,2 +1,2 @@
 # GoIT_FE7
-A place to 
+A place to keep my homeworks
