@@ -3,7 +3,7 @@ margin:0;
 }
 .maindiv {
 margin: 0;
-width: 1024px;
+width: 100vw;
 height: 1024px;
 background-color: #F4F2EE;
 display: flex;
