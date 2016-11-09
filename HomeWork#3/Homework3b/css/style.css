@@ -10,7 +10,8 @@
 	height: 100vh;
 	background-image: url(../img/bg.jpg);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
+	background-attachment: fixed;
 	font-family: tahoma;
 	font-size: 10px;
 	font-weight: 400;
