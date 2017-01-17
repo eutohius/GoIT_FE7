@@ -27,7 +27,7 @@ function toPower(a, b) {
 
 		else {
 			b *= -1;
-			for (var i = 0; i < b; i++) {
+			for (var j = 0; j < b; j++) {
 				result *=a;
 			}
 			result = 1/result;
