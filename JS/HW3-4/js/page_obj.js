@@ -41,7 +41,7 @@ var page = {
 			}
 		},
 
-		fieldset3: {
+		fieldset2: {
 			legend: '3. Вопрос №3',
 			div0: {
 				label: {
@@ -61,7 +61,9 @@ var page = {
 		},
 
 		div: {
-			input: {}
+			input: {
+				value: 'Проверить мои результаты'
+			}
 		}
 	}
 }
