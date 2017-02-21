@@ -1,0 +1,42 @@
+.carousel-wrapper {
+  width: calc(100vw - 50px);
+  height: 480px;
+  overflow: hidden;
+  margin: auto; }
+
+.carousel-list {
+  list-style: none;
+  width: 7000px;
+  height: 480px;
+  position: relative;
+  left: -800px;
+  z-index: 1; }
+
+.carousel-element {
+  display: block;
+  margin-right: 15px;
+  float: left; }
+
+.carousel-arrow, .carousel-arrow-left, .carousel-arrow-right {
+  background-image: url(../img/arrows-sprite.png);
+  cursor: pointer;
+  position: absolute;
+  height: 128px;
+  width: 128px;
+  top: 176px;
+  opacity: .3;
+  z-index: 5; }
+
+.carousel-arrow:hover, .carousel-arrow-left:hover, .carousel-arrow-right:hover {
+  opacity: 1;
+  transition: 1s; }
+
+.carousel-arrow-left {
+  background-position: 0 0;
+  left: 5px; }
+
+.carousel-arrow-right {
+  background-position: 0 128px;
+  right: 5px; }
+
+/*# sourceMappingURL=style.css.map */

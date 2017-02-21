@@ -1,0 +1,53 @@
+$image-width: 640px;
+$image-margin: 15px;
+$image-number: 10;
+
+.carousel-wrapper {
+  width: calc(100vw - 50px);
+  height: 480px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-list {
+  list-style: none;
+  width: 7000px;
+  height: 480px;
+  position: relative;
+  left: -800px;
+  z-index: 1;
+}
+
+.carousel-element {
+  display: block;
+  margin-right: $image-margin;
+  float: left;
+}
+
+.carousel-arrow {
+  background-image: url(../img/arrows-sprite.png);
+  cursor: pointer;
+  position: absolute;
+  height: 128px;
+  width: 128px;
+  top: 480px / 2 - 128px / 2;
+  opacity: .3;
+  z-index: 5;
+}
+
+.carousel-arrow:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.carousel-arrow-left {
+  @extend .carousel-arrow;
+  background-position: 0 0;
+  left: 5px;
+}
+
+.carousel-arrow-right {
+  @extend .carousel-arrow;
+  background-position: 0 128px;
+  right: 5px;
+}
